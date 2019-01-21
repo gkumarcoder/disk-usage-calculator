@@ -2,7 +2,7 @@
 
 import os
 import sys 
-
+ 
 files = os.listdir(sys.argv[1])
 
 for x in files:
