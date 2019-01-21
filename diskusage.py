@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import os
-import sys
+import sys 
 
 files = os.listdir(sys.argv[1])
 
