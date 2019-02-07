@@ -7,3 +7,4 @@ How to run this python script
 This python script will take on command-line argument i.e mount point
 
 ![image](https://user-images.githubusercontent.com/25560217/50039490-69491f80-0059-11e9-8c0e-aa201e4cca69.png)
+
