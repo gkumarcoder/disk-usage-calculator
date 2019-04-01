@@ -9,12 +9,12 @@ for x in files:
   hrfilesize = os.path.getsize(fullpath) / 1024
   print (fullpath,hrfilesize) 
   
- #import subprocess
- #threshold = 10
- #child = subprocess.Popen(['df', '-h'], stdout=subprocess.PIPE)
- #output = child.communicate()[0].strip().split("\n")
- #for x in output[1:]:
- #           if int(x.split()[-2][:-1]) >= threshold:
- #            print x
+ import subprocess
+ threshold = 10
+ child = subprocess.Popen(['df', '-h'], stdout=subprocess.PIPE)
+ output = child.communicate()[0].strip().split("\n")
+ for x in output[1:]:
+            if int(x.split()[-2][:-1]) >= threshold:
+            print x
 
 
