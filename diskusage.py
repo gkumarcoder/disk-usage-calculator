@@ -18,8 +18,5 @@ for x in files:
             if int(x.split()[-2][:-1]) >= threshold:
             print x
      
-     
-    #https://www.martinkysel.com/hackerrank-circle-city-solution/
-     
 
 
